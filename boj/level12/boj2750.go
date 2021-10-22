@@ -25,6 +25,7 @@ func main() {
 	}
 
 	sort.Ints(slice)
+	// https://pkg.go.dev/sort 여기 공식문서에 설명되어있음
 	// 이제 정렬을 위해서 sort패키지 사용해야하는데
 	// 그중 Ints라는 함수 사용하면 배열들을 오름차순으로 정렬시켜줌.
 
